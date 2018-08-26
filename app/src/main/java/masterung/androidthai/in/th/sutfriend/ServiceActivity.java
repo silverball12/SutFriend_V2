@@ -16,6 +16,13 @@ public class ServiceActivity extends AppCompatActivity {
 
 //        Exit Controller
         exitController();
+
+        if (savedInstanceState == null) {
+            getSupportFragmentManager()
+                    .beginTransaction()
+                    .add(R.id.contentFragmentService,new ListUserFragment())
+                    .commit();
+        }
     }
 
     private void exitController() {
