@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!--Content-->
+    <LinearLayout
+        android:background="@drawable/contain"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--Logo-->
+        <ImageView
+            android:src="@drawable/logo"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!--User-->
+        <EditText
+            android:textSize="@dimen/h3"
+            android:layout_marginTop="20sp"
+            android:background="@drawable/textfield_email"
+            android:inputType="textEmailAddress"
+            android:hint="Email :"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!--Password-->
+        <EditText
+            android:background="@drawable/textfield_pas"
+            android:textSize="@dimen/h3"
+            android:layout_marginTop="@dimen/h3"
+            android:inputType="textPassword"
+            android:hint="Password :"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!--Login-->
+        <Button
+            android:background="@drawable/bt_button"
+            android:text="Login"
+            android:layout_marginTop="23sp"
+            android:textSize="18sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!--New Register-->
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:text="New Register"
+            android:id="@+id/txtNewRegister"
+            android:layout_marginTop="5sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
