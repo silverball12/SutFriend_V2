@@ -24,6 +24,7 @@
             android:textSize="@dimen/h3"
             android:layout_marginTop="20sp"
             android:background="@drawable/textfield_email"
+            android:id="@+id/edtEmail"
             android:inputType="textEmailAddress"
             android:hint="Email :"
             android:layout_width="match_parent"
@@ -31,6 +32,7 @@
 
         <!--Password-->
         <EditText
+            android:id="@+id/edtPassword"
             android:background="@drawable/textfield_pas"
             android:textSize="@dimen/h3"
             android:layout_marginTop="@dimen/h3"
@@ -41,6 +43,7 @@
 
         <!--Login-->
         <Button
+            android:id="@+id/btnLogin"
             android:background="@drawable/bt_button"
             android:text="Login"
             android:layout_marginTop="23sp"
@@ -50,6 +53,7 @@
 
         <!--New Register-->
         <TextView
+            android:clickable="true"
             android:layout_gravity="center_horizontal"
             android:text="New Register"
             android:id="@+id/txtNewRegister"
